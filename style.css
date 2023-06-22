@@ -1,0 +1,409 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(/font/Raleway-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none; color: gray;
+}
+
+body{
+    font-family: 'Raleway';
+}
+
+/* nav bar */
+
+.navbar-nav{
+    width: 100%; margin-left: 68%; height: 6vh;
+}
+
+.nav-link{
+    font-size: 1.2vw; text-align: center; margin-top: 1%;
+}
+
+/* image de fond */
+
+header{
+    background-image: url(/img/mac.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 93vh;
+}
+
+.titre{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    color: aliceblue;
+    margin-left: 5%;
+    
+}
+
+.titre .matter{
+    font-size: 5vw; margin-bottom: 3%;
+}
+
+.titre .wasting{
+    font-size: 1.5vw; margin-bottom: 2%;
+}
+
+.titre .Learn{
+    background-color: rgb(180, 180, 180); color: black; width: 21%; font-size: 1.3vw; text-align: center; padding: 1% 0 1% 0; opacity: 80%;
+}
+
+.titre .social{
+    color: gray; margin-top: 15%;
+}
+
+.titre .social i{
+    margin-right: 0.5%;
+}
+
+/* fin header début abt the compagny */
+
+.compagny{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    height: 65vh;
+}
+
+.compagny .st{
+    font-size: 1.8vw; margin-bottom: 2%;
+}
+
+.compagny .sst{
+    font-size: 1.4vw; margin-bottom: 5%;
+}
+
+.compagny .square{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.compagny .square .enfant{
+    display: flex; flex-direction: column; align-items: center; text-align: center; margin-left: 1.4%; margin-right: 1.4%; font-size: 1.1vw;
+}
+
+.compagny .square .enfant img{
+    width: 20%; margin-bottom: 10%;
+}
+
+.compagny .square .enfant .desktop{
+    width: 22%;
+}
+
+/* fin compagny début design */
+
+.design{
+    background-color: lightgray; height: 90vh; display: flex; flex-direction: row; align-items: center; padding-left: 2%;
+}
+
+.design .gauche{
+    display: flex; flex-direction: column; align-items: start; flex-wrap: wrap;
+    width: 50%; margin-right: 10%; height: 50vh;
+}
+
+.design .gauche .we{
+    font-size: 2vw;
+}
+
+.design .gauche .know{
+    font-size: 1.1vw;
+}
+
+.design .gauche .work{
+    background-color: black; color: white; padding: 2%; font-size: 1.1vw;
+}
+
+.design img{
+    width: 60%; margin-right: 2%; border-radius: 15px;
+}
+
+/* fin design début team*/
+
+.team{
+    display: flex; flex-direction: column; align-items: center; height: 100vh;
+}
+
+.team .theam{
+    font-size: 2vw; margin-top: 10%; margin-bottom: 2%;
+}
+
+.team .ones{
+    font-size: 1.1vw; margin-bottom: 4%;
+}
+
+.team .doe{
+    display: flex; flex-direction: row; align-items: center;
+}
+
+.team .doe .card{
+    margin-right: 1%; margin-left: 1%; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.team .doe .card img{ filter: grayscale(80%);}
+
+.team .doe .card h6{ margin-top: 8%; margin-bottom: 8%; color: lightslategrey;}
+
+.team .doe .card .btn{ width: 100%;}
+
+/* achievement */
+
+.achievement{
+    background-color: rgb(85, 85, 85);
+    display: flex; flex-direction: row; align-items: center;
+    color: white; height: 30vh; margin-top: 20vh; padding-top: 5vh;
+}
+
+.achievement div{
+    display: flex; flex-direction: column; align-items: center;
+    flex-wrap: nowrap; width: 25%;
+}
+
+.achievement .nombre{
+    font-size: 2vw; margin-bottom: 2vh;
+}
+.achievement .egal{
+    font-size: 1vw;
+}
+
+/* OUR work */
+
+.ourwork{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 4%;
+}
+
+.ourwork h4{
+    width: 100%; font-size: 2vw; margin-left: 44%; margin-top: 5vh; margin-bottom: 5vh;
+}
+
+.ourwork p{
+    width: 100%; font-size: 1.1vw; margin-left: 42.2%; margin-bottom: 8vh;
+}
+
+.ourwork .lesimages{
+    display: flex; flex-wrap: wrap; margin-left: 2%; margin-right: 1%;
+}
+
+.ourwork .lesimages img{
+    width: 24%; margin: 1% 1% 0 0;
+}
+
+/* Our Skills */
+
+.ourskills{
+    display: flex; flex-direction: row; padding-left: 2%; background-color: rgb(238, 238, 238); padding-top: 5%; padding-bottom: 5%;
+}
+
+.ourskills .nosskills h3{
+    margin-bottom: 5%; font-size: 2vw;
+}
+
+.ourskills .nosskills p{
+    width: 100%; font-size: 1.3vw;
+}
+
+.ourskills .prettygood{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-wrap: nowrap;
+    width: 60%;
+    margin-right: 2%;
+}
+
+.ourskills .prettygood p{
+    font-size: 1vw; color: rgb(0, 0, 0); margin: 2vh 0 2vh 0; letter-spacing: 20px;
+}
+
+.ourskills .prettygood .dessusneuf{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;  background-color: rgb(150, 150, 150);
+}
+
+.ourskills .prettygood .dessusneuf .dessousneuf{
+    width: 90%; background-color: darkslategray;
+    display: flex; align-items: center; height: 4vh;
+}
+
+.ourskills .prettygood .dessushuit{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;  background-color: rgb(150, 150, 150);
+}
+
+.ourskills .prettygood .dessushuit .dessoushuit{
+    width: 85%; background-color: darkslategray;
+    display: flex; align-items: center; height: 4vh;
+}
+
+.ourskills .prettygood .dessussept{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;  background-color: rgb(150, 150, 150);
+}
+
+.ourskills .prettygood .dessussept .dessoussept{
+    width: 75%; background-color: darkslategray;
+    display: flex; align-items: center; height: 4vh;
+}
+
+.ourskills .prettygood span{
+    color: white;
+    margin-left: 50%;
+}
+
+/* pricing */
+
+hr{
+    width: 100%;
+}
+
+.pricing{
+    display: flex; flex-direction: column; align-items: center; background-color: rgb(100, 100, 100); padding-top: 10%; padding-bottom: 10%;
+}
+
+.pricing .prix{
+    color: white; font-size: 2vw;
+}
+
+.pricing .choisir{
+    color: white; font-size: 1.3vw; margin-top: 2%; margin-bottom: 5%;
+}
+
+.pricing .tbl{
+    display: flex; flex-direction: row; align-items: center; width: 100%;
+}
+
+.pricing .tbl .basic, .pricing .tbl .pro, .pricing .tbl .premium{
+    display: flex; flex-direction: column; align-items: center; width: 100%;
+}
+
+.pricing .tbl .basic{
+    background-color: white; margin-left: 2%; margin-right: 1%; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pricing .tbl .premium{
+    background-color: white; margin-right: 2%; margin-left: 1%; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pricing .tbl .noir{
+    color: white; background-color: black; width: 100%; text-align: center; padding: 8% 0 8% 0; font-size: 2vw;
+}
+
+.pricing .tbl .case{
+    font-size: 1.1vw; margin-top: 3%;
+}
+
+.pricing .tbl .price{
+    font-size: 2vw;
+}
+
+.pricing .tbl .when{
+    color: gray; font-size: 1vw; margin-bottom: 5%;
+}
+
+.pricing .tbl .enregisrement{
+    width: 100%; background-color: lightgray; text-align: center; padding-top: 8%; padding-bottom: 8%;
+}
+
+.pricing .tbl .enregisrement a{
+    background-color: black; color: white; padding: 4% 5% 4% 5%; font-size: 1.1vw
+}
+
+.pricing .tbl .pro{
+    background-color: white; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pricing .tbl .pro .rouge{
+    background-color: red; width: 100%; text-align: center; color: white; font-size: 2vw; padding: 12% 0 12% 0;
+}
+
+/* fin pricing début decontacter */
+
+.decontacter{
+    display: flex; flex-direction: column;  background-color: rgb(238, 238, 238);
+    padding-top: 10%; align-items: center;
+}
+
+.decontacter .entete .titreentete{
+    font-size: 2vw; text-align: center; margin-bottom: 8%;
+}
+
+.decontacter .entete .touch{
+    font-size: 1.3vw;
+}
+
+.decontacter .coordonne{
+    display: flex; flex-direction: column; align-items: start; width: 98%; margin-top: 2%;
+}
+
+.decontacter .coordonne .chg{
+    font-size: 1.1vw; width: 100%; margin-bottom: 3%;
+}
+
+.decontacter .coordonne .phn{
+    font-size: 1.1vw; width: 100%; margin-bottom: 3%;
+}
+
+.decontacter .coordonne .mil    {
+    font-size: 1.1vw; width: 100%; margin-bottom: 5%;
+}
+
+.decontacter .coordonne i{
+    margin-right: 2%;
+}
+
+.decontacter .coordonne input{
+    width: 100%; border: 1%; padding: 1% 0 1% 1%; margin-bottom: 1%;
+}
+
+.decontacter .coordonne .avion{
+    width: 100%; background-color: black; color: white; font-size: 1.2vw; width: 16%; padding: 1% 2% 1% 2%;
+}
+
+.decontacter img{
+    width: 98%; margin-top: 5%; filter: grayscale(70%); padding-bottom: 8%;
+}
+
+/* fin decontacter et section, début footer */
+
+footer{
+    display: flex; flex-direction: column; align-items: center;
+    background-color: black; height: 50vh;
+}
+
+.tothetop{
+    background-color: rgb(235, 235, 235); color: black; font-size: 1.3vw; padding: 1% 2% 1% 2%; margin-top: 10vh;
+}
+
+.down{
+    margin-top: 5vh;
+}
+
+.rs{
+    color: white;
+}
+
+.power{
+    color: white; margin-right: 3%; font-size: 1.3vw; margin-top: 4%;
+}

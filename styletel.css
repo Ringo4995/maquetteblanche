@@ -1,0 +1,411 @@
+@media only screen and (max-width : 576px) {
+    @font-face {
+        font-family: 'Raleway';
+        src: url(/font/Raleway-VariableFont_wght.ttf);
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    a{
+        text-decoration: none; color: gray;
+    }
+    
+    body{
+        font-family: 'Raleway';
+    }
+    
+    /* nav bar */
+    
+    .navbar-nav{
+        width: 100%; margin-left: 68%; height: 6vh;
+    }
+    
+    .nav-link{
+        font-size: 1.2vw; text-align: center; margin-top: 1%;
+    }
+    
+    /* image de fond */
+    
+    header{
+        background-image: url(/img/mac.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        width: 100%;
+        height: 65vh;
+    }
+    
+    .titre{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30%;
+        color: aliceblue;
+        margin-left: 5%;
+        
+    }
+    
+    .titre .matter{
+        font-size: 8vw; margin-bottom: 3%;
+    }
+    
+    .titre .wasting{
+        font-size: 4vw; margin-bottom: 6%; margin-right: 5%;
+    }
+    
+    .titre .Learn{
+        background-color: rgb(180, 180, 180); color: black; width: 70%; font-size: 4vw; text-align: center; padding: 3% 4% 3% 4%; opacity: 80%;
+    }
+    
+    .titre .social{
+        color: gray; margin-top: 17%;
+    }
+    
+    .titre .social i{
+        margin-right: 0.5%;
+    }
+    
+    /* fin header début abt the compagny */
+    
+    .compagny{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+        height: 150vh;
+    }
+    
+    .compagny .st{
+        font-size: 4.5vw; margin-bottom: 2%;
+    }
+    
+    .compagny .sst{
+        font-size: 3.5vw; margin-bottom: 5%;
+    }
+    
+    .compagny .square{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    
+    .compagny .square .enfant{
+        display: flex; flex-direction: column; align-items: center; text-align: center; margin-left: 4%; margin-right: 4%; font-size: 3.5vw;
+    }
+    
+    .compagny .square .enfant img{
+        width: 25%; margin-bottom: 10%;
+    }
+    
+    .compagny .square .enfant .desktop{
+        width: 25%;
+    }
+    
+    /* fin compagny début design */
+    
+    .design{
+        background-color: lightgray; height: 78vh; display: flex; flex-direction: column; align-items: center; padding-left: 8%; padding-top: 25%; padding-right: 8%;
+    }
+    
+    .design .gauche{
+        display: flex; flex-direction: column; align-items: start; flex-wrap: wrap;
+        width: 100%; margin-right: 0%; height: 20vh;
+    }
+    
+    .design .gauche .we{
+        font-size: 4vw;
+    }
+    
+    .design .gauche .know{
+        font-size: 3vw;
+    }
+    
+    .design .gauche .work{
+        background-color: black; color: white; padding: 2%; font-size: 3vw;
+    }
+    
+    .design img{
+        width: 100%; margin-right: 0%; border-radius: 15px;
+    }
+    
+    /* fin design début team*/
+    
+    .team{
+        display: flex; flex-direction: column; align-items: center; height: 260vh;
+    }
+    
+    .team .theam{
+        font-size: 6vw; margin-top: 10%; margin-bottom: 2%;
+    }
+    
+    .team .ones{
+        font-size: 4vw; margin-bottom: 4%;
+    }
+    
+    .team .doe{
+        display: flex; flex-direction: column; align-items: center;
+    }
+    
+    .team .doe .card{
+        margin-right: 1%; margin-left: 1%; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; margin-bottom: 3%;
+    }
+    
+    .team .doe .card img{ filter: grayscale(80%);}
+    
+    .team .doe .card h6{ margin-top: 8%; margin-bottom: 8%; color: lightslategrey;}
+    
+    .team .doe .card .btn{ width: 100%;}
+    
+    /* achievement */
+    
+    .achievement{
+        background-color: rgb(85, 85, 85);
+        display: flex; flex-direction: column; align-items: center;
+        color: white; height: 65vh; margin-top: 20vh; padding-top: 5vh;
+    }
+    
+    .achievement div{
+        display: flex; flex-direction: column; align-items: center;
+        flex-wrap: nowrap; width: 25%;
+    }
+    
+    .achievement .nombre{
+        font-size: 8vw; margin-bottom: 2vh;
+    }
+    .achievement .egal{
+        font-size: 3vw;
+    }
+    
+    /* OUR work */
+    
+    .ourwork{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-bottom: 4%;
+    }
+    
+    .ourwork h4{
+        width: 100%; font-size: 6vw; margin-left: 35%; margin-top: 8vh; margin-bottom: 5vh;
+    }
+    
+    .ourwork p{
+        width: 100%; font-size: 3.5vw; margin-left: 28.2%; margin-bottom: 8vh;
+    }
+    
+    .ourwork .lesimages{
+        display: flex; flex-direction: column; flex-wrap: wrap; margin-left: 0%; margin-right: 0%; width: 90%;margin-bottom: 30%;
+    }
+    
+    .ourwork .lesimages img{
+        width: 100%; margin: 3% 6% 0 6%;
+    }
+    
+    /* Our Skills */
+    
+    .ourskills{
+        display: flex; flex-direction: column; padding-left: 7%; background-color: rgb(238, 238, 238); padding-top: 5%; padding-bottom: 15%;
+    }
+    
+    .ourskills .nosskills h3{
+        margin-bottom: 5%; font-size: 6vw;
+    }
+    
+    .ourskills .nosskills p{
+        width: 100%; font-size: 3vw;
+    }
+    
+    .ourskills .prettygood{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        flex-wrap: nowrap;
+        width: 93%;
+        margin-right: 2%;
+    }
+    
+    .ourskills .prettygood p{
+        font-size: 4vw; color: rgb(0, 0, 0); margin: 2vh 0 2vh 0; letter-spacing: 5px;
+    }
+    
+    .ourskills .prettygood .dessusneuf{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;  background-color: rgb(150, 150, 150);
+    }
+    
+    .ourskills .prettygood .dessusneuf .dessousneuf{
+        width: 90%; background-color: darkslategray;
+        display: flex; align-items: center; height: 4vh;
+    }
+    
+    .ourskills .prettygood .dessushuit{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;  background-color: rgb(150, 150, 150);
+    }
+    
+    .ourskills .prettygood .dessushuit .dessoushuit{
+        width: 85%; background-color: darkslategray;
+        display: flex; align-items: center; height: 4vh;
+    }
+    
+    .ourskills .prettygood .dessussept{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;  background-color: rgb(150, 150, 150);
+    }
+    
+    .ourskills .prettygood .dessussept .dessoussept{
+        width: 75%; background-color: darkslategray;
+        display: flex; align-items: center; height: 4vh;
+    }
+    
+    .ourskills .prettygood span{
+        color: white;
+        margin-left: 50%;
+    }
+    
+    /* pricing */
+    
+    hr{
+        width: 100%;
+    }
+    
+    .pricing{
+        display: flex; flex-direction: column; align-items: center; background-color: rgb(100, 100, 100); padding-top: 10%; padding-bottom: 10%;
+    }
+    
+    .pricing .prix{
+        color: white; font-size: 6vw;
+    }
+    
+    .pricing .choisir{
+        color: white; font-size: 3vw; margin-top: 2%; margin-bottom: 5%;
+    }
+    
+    .pricing .tbl{
+        display: flex; flex-direction: column; align-items: center; width: 85%;
+    }
+    
+    .pricing .tbl .basic, .pricing .tbl .pro, .pricing .tbl .premium{
+        display: flex; flex-direction: column; align-items: center; width: 100%;
+    }
+    
+    .pricing .tbl .basic{
+        background-color: white; margin-left: 1%; margin-right: 1%; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    .pricing .tbl .premium{
+        background-color: white; margin-right: 1%; margin-left: 1%; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    .pricing .tbl .noir{
+        color: white; background-color: black; width: 100%; text-align: center; padding: 8% 0 8% 0; font-size: 4vw;
+    }
+    
+    .pricing .tbl .case{
+        font-size: 3vw; margin-top: 3%;
+    }
+    
+    .pricing .tbl .price{
+        font-size: 3vw;
+    }
+    
+    .pricing .tbl .when{
+        color: gray; font-size: 2vw; margin-bottom: 5%;
+    }
+    
+    .pricing .tbl .enregisrement{
+        width: 100%; background-color: lightgray; text-align: center; padding-top: 8%; padding-bottom: 8%;
+    }
+    
+    .pricing .tbl .enregisrement a{
+        background-color: black; color: white; padding: 4% 5% 4% 5%; font-size: 3vw
+    }
+    
+    .pricing .tbl .pro{
+        background-color: white; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    .pricing .tbl .pro .rouge{
+        background-color: red; width: 100%; text-align: center; color: white; font-size: 6vw; padding: 12% 0 12% 0;
+    }
+    
+    /* fin pricing début decontacter */
+    
+    .decontacter{
+        display: flex; flex-direction: column;  background-color: rgb(238, 238, 238);
+        padding-top: 10%; align-items: center;
+    }
+    
+    .decontacter .entete .titreentete{
+        font-size: 6vw; text-align: center; margin-bottom: 8%;
+    }
+    
+    .decontacter .entete .touch{
+        font-size: 3vw;
+    }
+    
+    .decontacter .coordonne{
+        display: flex; flex-direction: column; align-items: start; width: 98%; margin-top: 2%; margin-left: 5%;
+    }
+    
+    .decontacter .coordonne .chg{
+        font-size: 3vw; width: 100%; margin-bottom: 3%;
+    }
+    
+    .decontacter .coordonne .phn{
+        font-size: 3vw; width: 100%; margin-bottom: 3%;
+    }
+    
+    .decontacter .coordonne .mil    {
+        font-size: 3vw; width: 100%; margin-bottom: 5%;
+    }
+    
+    .decontacter .coordonne i{
+        margin-right: 2%;
+    }
+    
+    .decontacter .coordonne input{
+        width: 97.5%; border: 1%; padding: 1% 0 1% 1%; margin-bottom: 2%;
+    }
+    
+    .decontacter .coordonne .avion{
+        width: 100%; background-color: black; color: white; font-size: 3vw; width: 34%; padding: 1% 2% 1% 2%;
+    }
+    
+    .decontacter img{
+        width: 98%; margin-top: 5%; filter: grayscale(70%); padding-bottom: 26%;
+    }
+    
+    /* fin decontacter et section, début footer */
+    
+    footer{
+        display: flex; flex-direction: column; align-items: center;
+        background-color: black; height: 40vh;
+    }
+    
+    .tothetop{
+        background-color: rgb(235, 235, 235); color: black; font-size: 3vw; padding: 1% 2% 1% 2%; margin-top: 10vh;
+    }
+    
+    .down{
+        margin-top: 5vh;
+    }
+    
+    .rs{
+        color: white;
+    }
+    
+    .power{
+        color: white; margin-right: 3%; font-size: 3vw; margin-top: 4%;
+    }
+}
